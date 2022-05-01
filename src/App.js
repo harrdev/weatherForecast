@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   function fetchWeatherData() {
-    const apiKey = '8befedfd791ad7d475cbd5fe6a81e729'
+    const apiKey = ''
     const mesaLat = 33.4152
     const mesaLon = -111.8315
     const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${mesaLat}&lon=${mesaLon}&units=imperial&exclude=current,minutely,hourly,alerts&appid=${apiKey}`
